@@ -1,0 +1,44 @@
+.stor-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    ;
+
+}
+.gul-box{
+    background-color: #FDB927;
+    min-width: 200px;
+
+    min-height: 200px;
+}
+
+.lila-box{
+    background-color: #552583;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.lila-text{
+    color: #552583;
+    font-size: 80px;
+}
+
+.gul-text{
+    color: #FDB927;
+    font-size: 80px;
+    font-style: italic;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.lebron{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    height: auto ;
+}
+    

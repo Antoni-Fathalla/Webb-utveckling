@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+
+h1{
+    text-align: center;
+}
+
+#top{
+    border: 2px solid red;
+    background-image: url(../img/snow_winter_trees.jpg);
+    height: 420px;
+    background-size: cover;
+    background-position-y: center;
+    align-items: row;
+    border-radius: 7px;
+}
+
+.center-text{
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#top-div{
+    border: 2px solid red;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+#top-div img {
+    width: 200px;
+    padding: 0;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#big-div{
+    border: 2px solid red;
+    display: flex;
+    align-items: row; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    
+
+}
+
+#mid-div{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#R-div{
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#L-div{
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.mdn-logo{
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.W3-logo{
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.träd{
+    height: 500px;
+    width: 200px;
+}
+
+#bottom-div{
+    border: 2px solid red;
+    text-align: center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.box-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr 80px 5fr 2fr;
+    gap: 10px;
+    background-color: #fcdee0;
+}
+
+.logo{
+    height: 180px;
+    width: auto;
+}
+
+nav{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+footer{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
